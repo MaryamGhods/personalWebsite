@@ -1,0 +1,135 @@
+body{
+  font-family: Helvetica, sans-serif;
+  font-size: 2rem;
+}
+hr{
+  border: dotted ;
+  border-radius: 1px;
+  border-bottom: none;
+  color:  #776A8A;
+}
+.navbar-customize{
+  font-family: 'Crimson Text', serif;
+  background-color: #776A8A ;
+  font-size: 1rem;
+  width: 100%;
+}
+.navbar-brand{
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  padding: 0 2%;
+}
+.nav-item{
+  padding: 0 5px;
+}
+#home{
+  padding: 0;
+  background-color: #FFDDE2 ;
+}
+#home img{
+  padding: 0;
+  margin: 0;
+  width: 100% ;
+}
+#home .container-fluid{
+  position: relative;
+  color: #564D65;
+}
+.col{
+  padding: 0;
+}
+.image-text {
+  position: absolute;
+  top: 6%;
+  right: 3%;
+  text-align:left;
+  font-size: 4rem;
+  width: 24%;
+}
+#portfolio{
+  padding: 8%;
+  margin:1rem auto 3rem;
+  text-align:center;
+}
+#portfolio h1{
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 3% ;
+  color: #D96E70;
+}
+#portfolio img{
+  padding: 0.5rem;
+}
+.card{
+  margin: 5%;
+  border-color: #D96E70;
+}
+#about{
+  background-color: #FFDDE2 ;
+  padding: 8%;
+}
+#about h1{
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 3% ;
+}
+#about p{
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: justify;
+}
+#about li{
+  font-size: 1.3rem;
+  color: #534D56;
+}
+#about img{
+  display: block;
+  width: 20%;
+  margin: 50px auto 50px;
+  text-align: center;
+}
+#contact{
+  padding: 8%;
+}
+#contact h1{
+  padding-top: 1.5%;
+  padding-bottom: 3% ;
+  text-align: center;
+  color: #D96E70;
+}
+#contact h2{
+  padding-bottom: 2%;
+  color: #564D65;
+  font-weight: bold;
+}
+#contact p{
+  font-size: 1.2rem;
+  color: #534D56;
+}
+.text-information{
+  width :100%;
+}
+.form-label{
+  font-size: 1rem;
+}
+.border{
+  padding: 1rem;
+}
+.col-md-12{
+  margin-top: 0;
+}
+.col-lg-6{
+  margin-top: 0;
+}
+.col-12{
+  margin-top: 0;
+}
+footer{
+  background-color: #C0A6A9 ;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0 ;
+  padding: 1rem;
+}
