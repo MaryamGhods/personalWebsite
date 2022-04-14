@@ -114,6 +114,39 @@ div.transbox .image-text {
 }
 
 /* ----------------------------portfolio------------------------------------- */
+.row-customized{
+  position: relative;
+  height: 550px;
+  width: 100%;
+}
+#iMac{
+  width: 550px;
+  height: min-content;
+  position: absolute;
+  left: 260px;
+}
+#iPhone{
+  width: 200px;
+  height: min-content;
+  position: absolute;
+  left: 270px;
+  top: 190px;
+}
+#iPad{
+  width: 250px;
+  height: min-content;
+  position: absolute;
+  left: 170px;
+  top: 160px;
+}
+#Macbook{
+  width: 500px;
+  height: min-content;
+  position: absolute;
+  left: 540px;
+  top: 150px;
+}
+
 .col{
   padding: 0;
 }
@@ -242,8 +275,66 @@ footer p{
 }
 
 /* -----------------------------------media query---------------------------- */
-@media (max-width:800px) {
+@media (max-width:820px) {
+  .card {
+    font-size: 16px;
+    padding: 0.5rem;
+    height: 260px;
+  }
+  .card-body{
+    padding: 1rem 0;
+  }
+  .nav-item{
+    font-size: 16px;
+  }
   .svg-navbar{
     display: inline-block;
+  }
+  #iMac{
+    left: 50px;
+  }
+  #iPhone{
+    left: 100px;
+    top: 190px;
+  }
+  #iPad{
+    left: 0px;
+    top: 160px;
+  }
+  #Macbook{
+    left: 250px;
+    top: 150px;
+  }
+}
+
+@media (max-width:520px) {
+  .row-customized{
+    height: 600px;
+  }
+  #iMac{
+    width: 400px;
+    left: 0;
+  }
+  #iPhone {
+    width: 130px;
+    top: 360px;
+    left: 5px;
+  }
+  #iPad {
+    width: 170px;
+    left: 0;
+    top: 120px;
+  }
+  #Macbook {
+    width: 350px;
+    left: 20px;
+    top: 320px;
+  }
+  .portfolio img {
+    width: 250px;
+    margin: auto;
+  }
+  .card {
+    height: 320px;
   }
 }
